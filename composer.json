@@ -1,0 +1,36 @@
+{
+    "name": "oabgptoolkit/arterial",
+    "description": "OAB GP Toolkit",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lucas Tortola",
+            "email": "lucas@arterialgroup.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "vendor",
+        "disable-tls": true,
+        "secure-http": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Boot/Config.php",
+            "source/Boot/Helpers.php",
+            "source/Boot/Minify/Website.php"
+        ]
+    },
+    "require": {
+        "php": "^7.0",
+        "ext-pdo": "^7.0",
+        "phpmailer/phpmailer": "~6.0",
+        "coffeecode/router": "^1.0",
+        "league/plates": "v4.0.0-alpha",
+        "matthiasmullie/minify": "^1.3"
+    }
+}

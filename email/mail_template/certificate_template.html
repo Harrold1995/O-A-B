@@ -1,0 +1,522 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+<style type="text/css">
+  html,
+  body {
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    height: 100%;
+    width: 100%;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif, Arial;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .m6 {
+    height: 6px;
+  }
+
+  .m10 {
+    height: 2px;
+  }
+
+  .m20 {
+    height: 4px;
+  }
+
+  .m30 {
+    height: 30px;
+  }
+
+  .m50 {
+    height: 32px;
+  }
+
+  .m60 {
+    height: 60px;
+  }
+
+  .m70 {
+    height: 70px;
+  }
+
+  .certificate-page {
+    width: 700px;
+    height: 880px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: block;
+  }
+
+  .certificate {
+    padding: 30px;
+    display: block;
+    position: relative;
+    background-image: url("https://www.nationalvaccineforum.com.au/themes/astellas/images/bg_pink_gradient.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .arterial-logo {
+    display: block;
+    width: auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 10px 10px;
+  }
+
+  .bg-white {
+    background-color: #ffffff !important;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-family: "Montserrat", sans-serif, Arial;
+    line-height: 30px;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #231f20;
+    font-family: "Montserrat", sans-serif, Arial;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .text-small {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .description {
+    display: block;
+    width: auto;
+  }
+
+  .subtitle {
+    font-family: "Montserrat", sans-serif, Arial;
+    line-height: 18px;
+    font-size: 18px;
+    color: #636362;
+    font-weight: bold;
+  }
+
+  .subtitle2 {
+    font-family: "Montserrat", sans-serif, Arial;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #5b86e5;
+    letter-spacing: 0.5px;
+  }
+
+  .text {
+    font-family: "Montserrat", sans-serif, Arial;
+    line-height: 18px;
+    font-size: 16px;
+    color: #636362;
+  }
+
+  .text2 {
+    padding: 8px;
+    font-family: "Montserrat", sans-serif, Arial;
+    line-height: 22px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+
+  table tr td {
+    font-family: "Montserrat", sans-serif, Arial;
+    line-height: 14px;
+    font-size: 12px;
+    color: #878787;
+    font-weight: 400;
+  }
+
+  .line {
+    background-color: #8e8e8e;
+    height: 1px;
+    width: 100%;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .point-text {
+    font-family: "Montserrat", sans-serif, Arial;
+    color: #636362;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 10px;
+  }
+</style>
+<!-- CMS -->
+<div class="certificate-page">
+  <div class="certificate" id="certificate">
+    <!--<div class="container">-->
+    <div class="certificate_container">
+      <div class="certificate_title_container">
+        <div class="arterial-logo">
+          <img
+            src="https://www.nationalvaccineforum.com.au/themes/astellas/images/footer-nvc-logo.png"
+            width="200"
+            style="padding-top: 10px"
+          />
+          <h5
+            class="text-center text-uppercase"
+            style="font-family: 'Montserrat', sans-serif, Arial"
+          >
+            This is to Certify that:
+          </h5>
+        </div>
+        <div
+          class="text text-center"
+          style="
+            font-size: 26px;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif, Arial;
+          "
+        >
+          <h1 style="margin-top: 10px; padding-bottom: 10px">
+            <span
+              class="text-uppercase"
+              style="letter-spacing: 1px; color: #2157a1"
+            >
+              {{last_name}}
+            </span>
+          </h1>
+        </div>
+        <div
+          class="text text-center"
+          style="
+            font-size: 16px;
+            color: #2157a1;
+            margin-bottom: 10px;
+            font-family: 'Montserrat', sans-serif, Arial;
+          "
+        >
+          RACGP: {{RACGP}}
+        </div>
+        <div class="m10"></div>
+        <div class="description bg-white">
+          <h5
+            class="text-center text-uppercase"
+            style="font-family: 'Montserrat', sans-serif, Arial"
+          >
+            Has successfully completed the online learning activity
+          </h5>
+          <div class="m10"></div>
+          <div class="subtitle2 text-center" style="padding: 0; color: #2157a1">
+            Vaccine Confidence: COVID-19 and Beyond
+          </div>
+          <div class="m10"></div>
+          <h5
+            class="text-center text-uppercase"
+            style="
+              font-family: 'Montserrat', sans-serif, Arial;
+              margin-bottom: 8px;
+            "
+          >
+            Demonstrating an ability to:
+          </h5>
+          <table width="100%" border="0" cellpadding="0" cellspacing="5">
+            <tr>
+              <td
+                style="
+                  width: 12px;
+                  padding-left: 0px;
+                  padding-right: 6px;
+                  padding-top: 3px;
+                  padding-bottom: 0;
+                "
+                valign="top"
+              >
+                <img
+                  src="https://www.nationalvaccineforum.com.au/themes/astellas/images/banner-logo.png"
+                  width="12"
+                />
+              </td>
+              <td
+                style="
+                  font-weight: 400;
+                  text-align: left;
+                  padding-right: 6px;
+                  padding-bottom: 6px;
+                  color: #231f20;
+                "
+              >
+                Recognise communication barriers in culturally diverse
+                populations
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  width: 12px;
+                  padding-left: 0px;
+                  padding-right: 6px;
+                  padding-top: 3px;
+                  padding-bottom: 0;
+                "
+                valign="top"
+              >
+                <img
+                  src="https://www.nationalvaccineforum.com.au/themes/astellas/images/banner-logo.png"
+                  width="12"
+                />
+              </td>
+              <td
+                style="
+                  font-weight: 400;
+                  text-align: left;
+                  padding-right: 6px;
+                  padding-bottom: 6px;
+                  color: #231f20;
+                "
+              >
+                List the pros and cons of mandatory vaccination policy
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  width: 12px;
+                  padding-left: 0px;
+                  padding-right: 6px;
+                  padding-top: 3px;
+                  padding-bottom: 0;
+                "
+                valign="top"
+              >
+                <img
+                  src="https://www.nationalvaccineforum.com.au/themes/astellas/images/banner-logo.png"
+                  width="12"
+                />
+              </td>
+              <td
+                style="
+                  font-weight: 400;
+                  text-align: left;
+                  padding-right: 6px;
+                  padding-bottom: 6px;
+                  color: #231f20;
+                "
+              >
+                Advise parents about COVID-19 vaccines in paediatric populations
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  width: 12px;
+                  padding-left: 0px;
+                  padding-right: 6px;
+                  padding-top: 3px;
+                  padding-bottom: 0;
+                "
+                valign="top"
+              >
+                <img
+                  src="https://www.nationalvaccineforum.com.au/themes/astellas/images/banner-logo.png"
+                  width="12"
+                />
+              </td>
+              <td
+                style="
+                  font-weight: 400;
+                  text-align: left;
+                  padding-right: 6px;
+                  padding-bottom: 6px;
+                  color: #231f20;
+                "
+              >
+                Recommend appropriate vaccines for travellers
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  width: 12px;
+                  padding-left: 0px;
+                  padding-right: 6px;
+                  padding-top: 3px;
+                  padding-bottom: 0;
+                "
+                valign="top"
+              >
+                <img
+                  src="https://www.nationalvaccineforum.com.au/themes/astellas/images/banner-logo.png"
+                  width="12"
+                />
+              </td>
+              <td
+                style="
+                  font-weight: 400;
+                  text-align: left;
+                  padding-right: 6px;
+                  padding-bottom: 6px;
+                  color: #231f20;
+                "
+              >
+                Communicate with hesitant persons about getting vaccinated in a
+                context of vaccine mandates
+              </td>
+            </tr>
+          </table>
+          <div class="m10"></div>
+        </div>
+        <div class="text2 text-center">
+          <table width="100%">
+            <tr>
+              <td
+                valign="center"
+                align="center"
+                style="color: #ffffff; text-align: center"
+                width="20%"
+              >
+                <img
+                  src="https://www.nationalvaccineforum.com.au/themes/astellas/images/racgp_06_points.png"
+                  width="100"
+                />
+              </td>
+              <td
+                valign="middle"
+                align="center"
+                style="
+                  color: #2157a1;
+                  text-align: left;
+                  margin-top: 20px;
+                  font-size: 15px;
+                "
+                width="80%"
+              >
+                This education is a CPD Activity under the RACGP CPD Program and
+                has been approved for 6 points
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="certificate_footer bg-white">
+        <div class="m20"></div>
+        <table width="100%" border="0" cellpadding="0" cellspacing="4">
+          <tr>
+            <td
+              style="
+                text-align: left;
+                color: #878787;
+                width: 42%;
+                font-weight: 400;
+                letter-spacing: 1px;
+                border-bottom: solid 1px #878787;
+                padding-bottom: 4px;
+              "
+            >
+              24563
+            </td>
+            <td style="width: 16%">&nbsp;</td>
+            <td
+              style="
+                text-align: left;
+                color: #878787;
+                width: 42%;
+                font-weight: 400;
+                letter-spacing: 1px;
+                border-bottom: solid 1px #878787;
+                padding-bottom: 4px;
+              "
+            >
+              {{date}}
+            </td>
+          </tr>
+          <tr>
+            <td
+              style="
+                text-align: left;
+                color: #5b86e5;
+                width: 42%;
+                font-weight: 500;
+                font-size: 12px;
+                letter-spacing: 0;
+                padding-top: 1px;
+              "
+            >
+              RACGP Activity number
+            </td>
+            <td style="width: 16%">&nbsp;</td>
+            <td
+              style="
+                text-align: left;
+                color: #5b86e5;
+                width: 42%;
+                font-weight: 500;
+                font-size: 12px;
+                letter-spacing: 0;
+                padding-top: 1px;
+              "
+            >
+              Certificate of Completion
+            </td>
+          </tr>
+        </table>
+        <div class="m30"></div>
+        <div class="line"></div>
+        <div class="m10"></div>
+        <div class="text-small text-center">
+          Arterial Education has partnered with Sanofi-Aventis Australia Pty Ltd
+          to produce this activity.
+        </div>
+        <br />
+        <div class="m10"></div>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td style="width: 50%; padding: 0 30px 0 0; text-align: right">
+              <img
+                src="https://www.nationalvaccineforum.com.au/themes/astellas/images/arterial_logo.png"
+                width="148"
+              />
+            </td>
+            <td style="width: 50%; padding: 0 0 0 30px; text-align: left">
+              <img
+                src="https://www.nationalvaccineforum.com.au/themes/astellas/images/footer-sanofi-logo.png"
+                width="150"
+              />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <div class="m20"></div>
+        <div class="text-small">
+          Activity provided by Arterial Education. <br />
+          Date of preparation: XX/XX/XXXX. Arterial 9306. RACGP Number:
+          308713.<br />
+          Arterial Education is a CPD education provider under the RACGP CPD
+          Program.<br />
+          21/26a Lime Street, Sydney, NSW 2000.<br />
+          Email: education@arterialgroup.com
+        </div>
+      </div>
+    </div>
+    <!--</div>-->
+  </div>
+</div>

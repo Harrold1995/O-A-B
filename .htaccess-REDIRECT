@@ -1,0 +1,15 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+
+Header set Cache-Control "no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires 0
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !https://www.ucbneurology.com.au/maintenance/index.html$
+RewriteRule (.*) https://www.ucbneurology.com.au/maintenance/index.html [R=301,L]
+</IfModule>
+
+# END WordPress
+
+
